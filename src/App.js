@@ -1,6 +1,5 @@
 import React from 'react';
 import { useUsers } from './hooks/useUsers'
-import './App.css';
 
 function App () {
   const [users, showLoader] = useUsers()
